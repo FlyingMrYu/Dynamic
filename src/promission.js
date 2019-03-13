@@ -19,7 +19,7 @@ router.beforeEach((to, from, next) => {
   } else {
     next()
   }
-
+  console.info(2222222)
 })
 
 
