@@ -9,7 +9,7 @@ import './promission'//这里进行路由后台获取的模拟
 import 'element-ui/lib/theme-chalk/index.css';
 import '@/styles/index.scss' // global css
 
-
+// 阻止启动生产消息
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 
